@@ -1,0 +1,148 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', 'Manjari', sans-serif;
+    background-color: #f9f4ed;
+}
+h1, h2, h3, h4, h5, h6, p{
+    color: #444444;
+    letter-spacing: 1px;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.me{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.me img{
+    width: 250px;
+    height: 250px;
+
+}
+.logic{
+    width: 250px;
+    height: 30px;
+    color: #cc6666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logic h3{
+    font-size: 1.5rem;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+.text h1{
+    font-size: 60px;
+}
+.articles{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-top: 240px;
+}
+.articles-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+.articles h1{
+    font-size: 50px;
+}
+.articles-2 h1{
+    font-size: 50px;
+}
+hr{
+    width: 60%;
+    height: 0.75rem;
+    background-color: #cc6666;
+    border: none;
+ 
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+.writings{
+    margin-top: px;
+ 
+}
+.writings button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: #cc6666;
+
+    margin-top: 5px;
+}
+.writings button a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+.writings hr{
+    width: 100%;
+    height: 1px;
+    background-color: #444444;
+    border: none;
+    margin-top: 20px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 600px){
+    .container{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 20%;
+    }
+    .me img{
+        width: 150px;
+        height: 150px;
+    }
+    .logic h3{
+        font-size: 1rem;
+        font-weight: 100;
+        letter-spacing: 5px;
+    }
+    
+    .text h1{
+        font-size: 40px;
+    }
+    .articles h1{
+        font-size: 30px;
+    }
+    .articles-2 h1{
+        font-size: 30px;
+    }
+    .articles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 120px;
+        }
+}
