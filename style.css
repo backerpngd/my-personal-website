@@ -97,28 +97,14 @@ a{
 /**ARTICLE SECTION END**/
 /**footer**/
 
-/**WRITNGS PAGE START**/
-/**!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**/
-.writings-fullstory{
-    display: none;
-    z-index: 1;
-}
-
-.writings-title-items:hover .writings-fullstory{
-    display: block;
-}
-
-.writings-title-items:hover .writings-btn{
-    display:none;
-}
-
-.writings-btn button{
+.backtohomebtn{
     border: none;
-    background-color: #f9f4ed;
-    color: #cc6666;
+    background-color: #cc6666;
+    padding: 10px
 }
-/**!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**/
-/**WRITINGS PAGE END**/
+.backtohomebtn a{
+    color: #f9f4ed;
+}
 .footer{
     display: flex;
     flex-direction: column;
