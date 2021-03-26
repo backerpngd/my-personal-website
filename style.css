@@ -48,7 +48,6 @@ a{
     margin-bottom: 5%;
 }
 
-
 /**my photo div**/
 .backerak{
     display: flex;
@@ -97,6 +96,29 @@ a{
 }
 /**ARTICLE SECTION END**/
 /**footer**/
+
+/**WRITNGS PAGE START**/
+/**!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**/
+.writings-fullstory{
+    display: none;
+    z-index: 1;
+}
+
+.writings-title-items:hover .writings-fullstory{
+    display: block;
+}
+
+.writings-title-items:hover .writings-btn{
+    display:none;
+}
+
+.writings-btn button{
+    border: none;
+    background-color: #f9f4ed;
+    color: #cc6666;
+}
+/**!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**/
+/**WRITINGS PAGE END**/
 .footer{
     display: flex;
     flex-direction: column;
