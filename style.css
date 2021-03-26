@@ -134,24 +134,35 @@ a{
         height: 160px;
     
     }
-
+.profile-photo-bottom-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10PX;
+}
     /**photo bottom text BACKER AK / LOGICAL MINDED**/
 .profile-photo-bottom-text h3{
     font-size: 0.7rem;
     font-weight: 100;
     letter-spacing: 5px;
-    margin-left: 6px;
-    margin-right: 3px;
+    margin-bottom: 0;
 }
-
+.profile-photo-bottom-text P{
+    margin-top: 0;
+    color: #cc6666;
+    font-size: 0.7rem;
+    letter-spacing: 1.5px;
+}
 /**main caption text**/
 .caption-text h1{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 500;
+    margin-top: 50px;
 }
 
 .main-heading{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 500;
     margin-top: 60px;
     margin-bottom: 0;
