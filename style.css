@@ -8,112 +8,109 @@ body{
     font-family: 'Oswald', 'Manjari', sans-serif;
     background-color: #f9f4ed;
 }
-h1, h2, h3, h4, h5, h6, p{
+h1, h2, h3, h4, h5, h6, p, a{
     color: #444444;
     letter-spacing: 1px;
 }
 
+a{
+    text-decoration: none;
+}
+
+.hr-color{
+    width: 100%;
+    height: 12px;
+    background-color: #cc6666;
+    border: none;
+}
+
+.hr-dark{
+    width: 100%;
+    height: 2px;
+    background-color: #444444;
+    border: none;
+}
+
+.main-heading{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+/**main container div**/
 .container{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
     margin-bottom: 5%;
 }
-.me{
 
+
+/**my photo div**/
+.backerak{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.me img{
+.backerak img{
     width: 250px;
     height: 250px;
 
 }
-.logic{
-    width: 250px;
+/**photo bottom text div**/
+.profile-photo-bottom-text{
+    width: 400px;
     height: 30px;
     color: #cc6666;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 5px;
+    
 }
-.logic h3{
-    font-size: 1.5rem;
+/**photo bottom text BACKER AK / LOGICAL MINDED**/
+.profile-photo-bottom-text h3{
+    font-size: 1rem;
     font-weight: 100;
     letter-spacing: 5px;
+    margin-left: 6px;
+    margin-right: 3px;
 }
-.text h1{
+
+/**main caption text**/
+.caption-text h1{
     font-size: 60px;
 }
-.articles{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-margin-top: 240px;
+
+/**ARTICLE SECTION**/
+.article-read{
+    display: none;
+    z-index: 1;
 }
-.articles-2{
+
+.article-title-items:hover .article-read{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    }
-.articles h1{
-    font-size: 50px;
 }
-.articles-2 h1{
-    font-size: 50px;
-}
-hr{
-    width: 60%;
-    height: 0.75rem;
-    background-color: #cc6666;
-    border: none;
- 
-    margin-top: 15px;
-    margin-bottom: 60px;
-}
-.writings{
-    margin-top: px;
- 
-}
-.writings button{
-    width: 200px;
-    height: 40px;
-    border: none;
-    background-color: #cc6666;
-
-    margin-top: 5px;
-}
-.writings button a{
-    letter-spacing: 1px;
-    text-decoration: none;
-    color: white;
-    font-size: 1rem;
-}
-.writings hr{
-    width: 100%;
-    height: 1px;
-    background-color: #444444;
-    border: none;
-    margin-top: 20px;
-}
-
+/**ARTICLE SECTION END**/
+/**footer**/
 .footer{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
 }
+
 .footer p{
-    color:#cc6666;
+    margin-bottom: 5px;
+    margin-top: 0;
+    color: #444444;
 }
 @media only screen and (max-width: 600px){
+    /**main container div**/
     .container{
         height: 100vh;
         display: flex;
@@ -122,30 +119,39 @@ hr{
         margin-right: 10%;
         margin-top: 20%;
     }
-    .me img{
-        width: 150px;
-        height: 150px;
-    }
-    .logic h3{
-        font-size: 1rem;
-        font-weight: 100;
-        letter-spacing: 5px;
-    }
+
+    .backerak img{
+        width: 160px;
+        height: 160px;
     
-    .text h1{
-        font-size: 40px;
     }
-    .articles h1{
-        font-size: 30px;
-    }
-    .articles-2 h1{
-        font-size: 30px;
-    }
-    .articles{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 120px;
-        }
+
+    /**photo bottom text BACKER AK / LOGICAL MINDED**/
+.profile-photo-bottom-text h3{
+    font-size: 0.7rem;
+    font-weight: 100;
+    letter-spacing: 5px;
+    margin-left: 6px;
+    margin-right: 3px;
+}
+
+/**main caption text**/
+.caption-text h1{
+    font-size: 30px;
+}
+
+.main-heading{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+.hr-color{
+    width: 100%;
+    height: 8px;
+    background-color: #cc6666;
+    border: none;
+}
+
 }
