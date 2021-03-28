@@ -57,29 +57,29 @@ a{
 }
 /**photo bottom text div**/
 .profile-photo-bottom-text{
-    width: 400px;
+    width: 50%;
     height: 30px;
-    color: #cc6666;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
-    
+    margin-top: 5px;
 }
 
 /**photo bottom text BACKER AK**/
 .profile-photo-bottom-text h3{
     font-size: 1rem;
-    font-weight: 100;
-    letter-spacing: 1.5px;
+    font-weight: 300;
+    letter-spacing: 2px;
     margin-bottom: 0;
 }
 /**photo bottom text msc psychology**/
 .profile-photo-bottom-text p{
     margin-top: 0;
     letter-spacing: 1.5px;
-    color: #cc6666;
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: #444444;
 }
 
 
@@ -259,22 +259,27 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 5px;
+    margin-top: 2px;
 }
+
+
 /**photo bottom text BACKER AK in 600px**/
 .profile-photo-bottom-text h3{
-    font-size: 0.7rem;
-    font-weight: 100;
-    letter-spacing: 1.5px;
+    font-size: 0.8rem;
+    font-weight: 300;
+    letter-spacing: 2px;
     margin-bottom: 0;
 }
 /**photo bottom text msc psychology in 600px**/
-.profile-photo-bottom-text P{
+.profile-photo-bottom-text p{
     margin-top: 0;
-    color: #cc6666;
-    font-size: 0.7rem;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 0.6rem;
+    color: #444444;
 }
+
+
 /**main caption text in 600px**/
 .caption-text h1{
     font-size: 25px;
