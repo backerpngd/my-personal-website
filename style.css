@@ -5,7 +5,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Fira Sans', 'Nunito Sans', 'Baloo Chettan 2', sans-serif;
+    font-family:'Fira Sans', 'Nunito Sans', 'Baloo Chettan 2', sans-serif;
     background-color: #f9f4ed;
 }
 h1, h2, h3, h4, h5, h6, p, a{
@@ -23,6 +23,7 @@ a{
     height: 12px;
     background-color: #cc6666;
     border: none;
+    border-radius: 1px;
 }
 
 .hr-dark{
@@ -45,16 +46,23 @@ a{
 
 /**my photo div**/
 .backerak{
+    background-color: #cc6666;
+    border-radius: 3px;
+    margin-bottom: 100px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 100px;
+padding-bottom: 100px;
 }
+
 /**profile image**/
 .backerak img{
     width: 250px;
     height: 250px;
-
 }
 /**photo bottom text div**/
 .profile-photo-bottom-text{
@@ -64,7 +72,7 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 5px;
+    margin-top: 2px;
 }
 
 /**photo bottom text BACKER AK**/
@@ -82,15 +90,13 @@ a{
     letter-spacing: 1.5px;
     font-weight: 300;
     font-size: 0.8rem;
-    color: #444444;
 }
-
-
 /**main caption text**/
 .caption-text h1{
     font-family: Fira Sans;
     font-size: 50px;
-    font-weight: 500;
+    font-weight: 100;
+    color: #f9f4ed;
 }
 
 /**ARTICLE SECTION**/
@@ -135,6 +141,7 @@ a{
     align-items: center;
     justify-content: center;
     padding-bottom: 20px;
+    border-radius: 2px;
 }
 
 .footer-sub h4{
@@ -158,7 +165,8 @@ a{
 .backtohomebtn{
     border: none;
     background-color: #cc6666;
-    padding: 10px
+    padding: 10px;
+    border-radius: 2px;
 }
 .backtohomebtn a{
     color: #f9f4ed;
@@ -185,17 +193,22 @@ a{
         margin-bottom: 5%;
     }
 
-    /**backerak img div in 1000px **/
+    /**my photo div in 1600px**/
+    .backerak{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        }
+    /**backerak img div in 1600px **/
 .backerak img{
     width: 220px;
     height: 220px;
 
 }
 
-/**main caption text in 1000px**/
+/**main caption text in 1600px**/
 .caption-text h1{
     font-size: 45px;
-    font-weight: 500;
+    font-weight: 100;
     margin-top: 50px;
 }
 
@@ -221,6 +234,11 @@ a{
         margin-bottom: 5%;
     }
 
+    /**my photo div in 1000px**/
+.backerak{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    }
     /**backerak img div in 1000px **/
 .backerak img{
     width: 190px;
@@ -231,7 +249,7 @@ a{
 /**main caption text in 1000px**/
 .caption-text h1{
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 100;
     margin-top: 50px;
 }
 
@@ -254,30 +272,36 @@ a{
         margin-right: 10%;
         margin-top: 20%;
 }
+
+/**my photo div in 800px**/
+.backerak{
+padding-top: 30px;
+padding-bottom: 30px;
+}
 /**backerak img div in 600px **/
 .backerak img{
         width: 160px;
         height: 160px;
     
 }
-/**profile photo bottom text div in 600px**/
+/**profile photo bottom text div in 800px**/
 .profile-photo-bottom-text{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 2px;
+    margin-top: 1px;
 }
 
 
-/**photo bottom text BACKER AK in 600px**/
+/**photo bottom text BACKER AK in 800px**/
 .profile-photo-bottom-text h3{
     font-size: 0.8rem;
     font-weight: 300;
     letter-spacing: 2px;
     margin-bottom: 0;
 }
-/**photo bottom text msc psychology in 600px**/
+/**photo bottom text msc psychology in 800px**/
 .profile-photo-bottom-text p{
     margin-top: 0;
     letter-spacing: 2px;
@@ -287,10 +311,10 @@ a{
 }
 
 
-/**main caption text in 600px**/
+/**main caption text in 800px**/
 .caption-text h1{
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: 100;
     margin-top: 50px;
 }
 
@@ -300,7 +324,7 @@ a{
     font-weight: 500;
     margin-bottom: 0;
 }
-/**hr-color in 600px**/
+/**hr-color in 800px**/
 .hr-color{
     width: 100%;
     height: 8px;
