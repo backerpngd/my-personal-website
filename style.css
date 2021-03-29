@@ -46,17 +46,10 @@ a{
 
 /**my photo div**/
 .backerak{
-    background-color: #cc6666;
-    border-radius: 3px;
-    margin-bottom: 100px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-padding-left: 10px;
-padding-right: 10px;
-padding-top: 100px;
-padding-bottom: 100px;
 }
 
 /**profile image**/
@@ -66,8 +59,6 @@ padding-bottom: 100px;
 }
 /**photo bottom text div**/
 .profile-photo-bottom-text{
-    width: 50%;
-    height: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,13 +81,14 @@ padding-bottom: 100px;
     letter-spacing: 1.5px;
     font-weight: 300;
     font-size: 0.8rem;
+    
 }
 /**main caption text**/
 .caption-text h1{
     font-family: Fira Sans;
     font-size: 50px;
     font-weight: 100;
-    color: #f9f4ed;
+    color: #444444;
 }
 
 /**ARTICLE SECTION**/
@@ -135,7 +127,7 @@ padding-bottom: 100px;
 }
 
 .footer-sub{
-    background-color: #cc6666;
+    background-color: #444444;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -193,11 +185,6 @@ padding-bottom: 100px;
         margin-bottom: 5%;
     }
 
-    /**my photo div in 1600px**/
-    .backerak{
-        padding-top: 50px;
-        padding-bottom: 50px;
-        }
     /**backerak img div in 1600px **/
 .backerak img{
     width: 220px;
@@ -209,7 +196,7 @@ padding-bottom: 100px;
 .caption-text h1{
     font-size: 45px;
     font-weight: 100;
-    margin-top: 50px;
+
 }
 
 /**MAIN HEADING**/
@@ -234,11 +221,6 @@ padding-bottom: 100px;
         margin-bottom: 5%;
     }
 
-    /**my photo div in 1000px**/
-.backerak{
-    padding-top: 40px;
-    padding-bottom: 40px;
-    }
     /**backerak img div in 1000px **/
 .backerak img{
     width: 190px;
@@ -250,7 +232,6 @@ padding-bottom: 100px;
 .caption-text h1{
     font-size: 40px;
     font-weight: 100;
-    margin-top: 50px;
 }
 
 /**MAIN HEADING**/
@@ -273,11 +254,6 @@ padding-bottom: 100px;
         margin-top: 20%;
 }
 
-/**my photo div in 800px**/
-.backerak{
-padding-top: 30px;
-padding-bottom: 30px;
-}
 /**backerak img div in 600px **/
 .backerak img{
         width: 160px;
@@ -315,7 +291,6 @@ padding-bottom: 30px;
 .caption-text h1{
     font-size: 30px;
     font-weight: 100;
-    margin-top: 50px;
 }
 
 /**MAIN HEADING**/
