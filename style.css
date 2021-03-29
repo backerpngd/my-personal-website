@@ -5,10 +5,11 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Oswald', 'Manjari', sans-serif;
+    font-family: 'Fira Sans', 'Nunito Sans', 'Manjari', sans-serif;
     background-color: #f9f4ed;
 }
 h1, h2, h3, h4, h5, h6, p, a{
+    font-family: Nunito Sans;
     color: #444444;
     letter-spacing: 1px;
 }
@@ -68,6 +69,7 @@ a{
 
 /**photo bottom text BACKER AK**/
 .profile-photo-bottom-text h3{
+    font-family: Fira Sans;
     font-size: 1rem;
     font-weight: 300;
     letter-spacing: 2px;
@@ -75,6 +77,7 @@ a{
 }
 /**photo bottom text msc psychology**/
 .profile-photo-bottom-text p{
+    font-family: Fira Sans;
     margin-top: 0;
     letter-spacing: 1.5px;
     font-weight: 300;
@@ -85,6 +88,7 @@ a{
 
 /**main caption text**/
 .caption-text h1{
+    font-family: Fira Sans;
     font-size: 50px;
     font-weight: 500;
 }
@@ -92,7 +96,9 @@ a{
 /**ARTICLE SECTION**/
 
 /**MAIN HEADING**/
+
 .article-title h1{
+    font-family: Fira Sans;
     font-size: 2.2rem;
     font-weight: 500;
     margin-bottom: 0;
@@ -136,6 +142,7 @@ a{
     font-weight: 500;
 }
 .footer-sub p, h4{
+    font-size: Fira Sans;
     color: #f9f4ed;
     letter-spacing: 1.5px;
 }
@@ -282,7 +289,7 @@ a{
 
 /**main caption text in 600px**/
 .caption-text h1{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     margin-top: 50px;
 }
