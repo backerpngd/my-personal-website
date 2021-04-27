@@ -174,12 +174,24 @@ p, a{
 
 .copyright{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     background-color:#282a2d;
     height: 50px;
 }
 
+.cp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cp img{
+    width: 12px;
+    height: 12px ;
+    margin-right: 3px;
+}
 .copyright p{
     color: #777777;
     font-size: 15px;
