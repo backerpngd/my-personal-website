@@ -125,11 +125,17 @@ p, a{
 .content button{
     width: 180px;
     height: 40px;
-    border: none;
+    background-color: #f2f2f2;
     border: 1px solid #777777;
-    color: #333333;
+    color: #777777;
     font-family:'Open Sans';
     margin-right: 30px;
+}
+
+.content button:hover{
+    border: none;
+    background-color: #777777;
+    color: #f2f2f2;
 }
 
 .buttons{
