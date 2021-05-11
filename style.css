@@ -54,10 +54,8 @@ p, a{
 
 .caption{
     width: 100%;
-    min-height: 85vh;
-    background-image: url("bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    min-height: 50vh;
+    background-color: #212326;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,7 +65,7 @@ p, a{
 
 .caption h1{
     color: #f2f2f2;
-    font-size: 4rem;
+    font-size: 10rem;
     margin-bottom: 0;
     margin-top: 100px;
 }
@@ -79,60 +77,66 @@ p, a{
 }
 
 
-.bar{
-    width: 100%;
-    min-height: 15vh;
-    background-color: #282a2d;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.bar h4{
-    font-size: 1.5rem;
-    color: #f2f2f2;
-    margin-left: 20%;
-    margin-right: 20%;
-}
 
 .intro-text{
     display: flex;
-    background-color: #212326;
+    flex-direction: column;
     padding-top: 20px;
     padding-bottom: 30px;
     padding-left: 20%;
     padding-right: 20%;
 }
 
-.intro-text p{
-    color: #f2f2f2;
+.intro-text h1{
+    font-size: 2.5rem;
+    color: #333333;
     margin-top: 50px;
-    margin-bottom: 50px;
+}
+
+.intro-text p{
+    color: #333333;
+    font-size: 1.3rem;
+    margin-top: 30px;
 }
 .content{
     display: flex;
     flex-direction: column;
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 100px;
 }
 
+.line{
+    width: 100%;
+    height: 5px;
+    border: none;
+    background-color: #777777;
+}
+
+.content h2{
+    margin-top: 75px;
+}
 .content h1{
     font-size: 3rem;
 }
 .content p{
     color: #333333;
+    margin-bottom: 25px;
 }
 
+.line2{
+    width: 100%;
+    height: 1px;
+    background-color: #777777;
+    border: none;
+    margin-top: 40px;
+}
 .content button{
     width: 180px;
     height: 40px;
     background-color: #f2f2f2;
     border: 1px solid #777777;
-    color: #777777;
     font-family:'Open Sans';
     margin-right: 30px;
 }
@@ -141,7 +145,6 @@ p, a{
 .content button:hover{
     border: none;
     background-color: #777777;
-    color: #f2f2f2;
 }
 
 
@@ -213,18 +216,13 @@ p, a{
 
 
     .caption h1{
-        font-size: 3rem;
+        font-size: 7rem;
     }
     
     .caption h3{
         font-size: 1.5rem;
     }
 
-    .bar h4{
-        font-size: 1rem;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
 
     .intro-text{
         padding-left: 10%;
