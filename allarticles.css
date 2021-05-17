@@ -1,5 +1,4 @@
 
-/**used colors dark black #212326;  light black #282a2d;  neutral #f2f2f2;  #333333   #777777 **/
 
 html{
     scroll-behavior: smooth;
@@ -9,7 +8,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f2f2f2;
+    background-color: #e0e0e0;
     font-family: 'Raleway', 'Open Sans', 'Baloo Chettan 2', sans-serif;
 }
 
@@ -18,14 +17,14 @@ a{
 }
 
 h1, h2, h3, h4, h5, h6{
-    color: #333333;
+    color: #555555;
     font-family: 'Raleway';
     letter-spacing: 1.5px;
     font-weight: 500;
 }
 
 p, a{
-    color: #333333;
+    color: #555555;
     font-family: 'Open Sans';
     letter-spacing: 1.2px;
 
@@ -50,7 +49,7 @@ p, a{
 
 .header-items P{
     font-size: 1.5rem;
-    color: #f2f2f2;
+    color: #aaaaaa;
     letter-spacing: 1rem;
 }
 
@@ -73,7 +72,7 @@ p, a{
 .line{
     width: 100%;
     height: 5px;
-    background-color: #777777;
+    background-color: #aaaaaa;
     border: none;
     margin-bottom: 50px;
 }
@@ -88,7 +87,7 @@ p, a{
 .line2{
     width: 100%;
     height: 1px;
-    background-color: #777777;
+    background-color: #aaaaaa;
     border: none;
 }
 .article-title a{
@@ -97,14 +96,20 @@ p, a{
 
 .article-title P{
     font-size: 1.5rem;
-    color: #333333;
+    color: #555555;
+}
+
+
+.article-dummi{
+    width: 100%;
+    height: 70px;
 }
 .content button{
     width: 180px;
     height: 40px;
-    background-color: #f2f2f2;
-    border: 1px solid #777777;
-    color: #777777;
+    background-color: #e0e0e0;
+    border: 1px solid #aaaaaa;
+    color: #aaaaaa;
     font-family:'Open Sans';
     margin-right: 30px;
     margin-top: 30px;
@@ -113,12 +118,11 @@ p, a{
 
 .content button:hover{
     border: none;
-    background-color: #777777;
-    color: #f2f2f2;
+    background-color: #aaaaaa;
 }
 
 .content button:hover a{
-    color: #f2f2f2;
+    color: #555555;
 }
 
 .buttons{
@@ -152,7 +156,7 @@ p, a{
     font-family:'Open Sans';
 }
 .footer h4, p{
-    color: #f2f2f2;
+    color: #aaaaaa;
 }
 
 .copyright{
@@ -176,7 +180,7 @@ p, a{
     margin-right: 3px;
 }
 .copyright p{
-    color: #777777;
+    color: #555555;
     font-size: 12px;
 }
 
