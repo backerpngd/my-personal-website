@@ -1,5 +1,5 @@
 
-/**used colors dark black #212326;  light black #282a2d;  neutral #e0e0e0;  #555555   #aaaaaa **/
+/**used colors dark black #212326;  light black #282a2d;  neutral #f2f0ef; #e1dddb; #555555 #aaaaaa **/
 
 html{
     scroll-behavior: smooth;
@@ -9,7 +9,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #e0e0e0;
+    background-color: #f2f0ef;
     font-family: 'Raleway', 'Open Sans', 'Baloo Chettan 2', sans-serif;
 }
 
@@ -88,11 +88,6 @@ p, a{
     padding-right: 20%;
 }
 
-.intro-text h1{
-    font-size: 2.5rem;
-    color: #555555;
-    margin-top: 50px;
-}
 
 .intro-text p{
     color: #555555;
@@ -144,8 +139,8 @@ p, a{
 .content button{
     width: 180px;
     height: 40px;
-    background-color: #e0e0e0;
-    border: 1px solid #aaaaaa;
+    background-color: #e1dddb;
+    border:none;
     font-family:'Open Sans';
     margin-right: 30px;
 }
@@ -153,7 +148,7 @@ p, a{
 
 .content button:hover{
     border: none;
-    background-color: #aaaaaa;
+    background-color: #f2f0ef;
 }
 
 .content button:hover a{
