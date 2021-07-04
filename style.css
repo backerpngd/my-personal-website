@@ -39,18 +39,26 @@ p, a{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:center;
+    justify-content:space-between;
     min-height: 10vh;
     margin-left: 15%;
     margin-right: 15%;
 }
 
 .header-items P{
-    font-size: 1.5rem;
-    color: #aaaaaa;
-    letter-spacing: 1rem;
+    font-size: 1rem;
+    color: #f2f0ef;
+    letter-spacing: 5px;
+}
+.header-items-sub{
+    display: flex;
+    flex-direction: row;
 }
 
+.cnt{
+    display: flex;
+    flex-direction: row;
+}
 .caption{
     width: 100%;
     min-height: 50vh;
@@ -193,7 +201,7 @@ color: #555555;
     align-items: center;
     justify-content: center;
     background-color:#282a2d;
-    height: 60px;
+    height: 50px;
 }
 
 .cp{
@@ -214,6 +222,14 @@ color: #555555;
 
 
 @media only screen and (max-width: 1000px) {
+
+    .header-items{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .header-items .cnt p{
+        display: none;
+    }
     .header-items P{
         font-size: 1rem;
     }
