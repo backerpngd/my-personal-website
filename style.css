@@ -185,12 +185,12 @@ p, a{
     width: 180px;
     height: 40px;
     border: none;
-    background-color: #555555;
+    background-color: #aaaaaa;
     font-family:'Open Sans';
     margin-right: 30px;
 }
 .content button a{
-    color: #f2f0ef;
+    color: #555555;
 }
 
 .allart h2{
