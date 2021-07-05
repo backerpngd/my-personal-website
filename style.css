@@ -184,20 +184,13 @@ p, a{
 .content button{
     width: 180px;
     height: 40px;
-    background-color: #e1dddb;
-    border:none;
+    border: none;
+    background-color: #555555;
     font-family:'Open Sans';
     margin-right: 30px;
 }
-
-
-.content button:hover{
-    border: none;
-    background-color: #f2f0ef;
-}
-
-.content button:hover a{
-color: #555555;
+.content button a{
+    color: #f2f0ef;
 }
 
 .buttons{
