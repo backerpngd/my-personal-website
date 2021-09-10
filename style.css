@@ -1,0 +1,321 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #efefef;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color:#333333;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+p{
+    color: #333333;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+
+
+
+/*HEADER SECTION START*/
+.header{
+    width: 100%;
+}
+
+
+.header-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    min-height: 10vh;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.header-items P{
+    font-size: 0.8rem;
+    color: #333333;
+    letter-spacing: 3px;
+}
+.header-items-sub{
+    display: flex;
+    flex-direction: row;
+}
+.header-items-sub  a:hover{
+    color: #b31942;
+}
+
+/* ### dropdown menu css code start ###*/
+.dropbtn {
+    display: none;
+    background-color: #efefef; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #efefef;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #333333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 0.8rem;
+  }
+  
+  .dropdown-content a:hover {
+      background-color: #333333;
+      color: #ffffff;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+
+/* ### dropdown menu css code end ###*/
+/*HEADER SECTION END*/
+
+/*LINEBAR*/
+.headerlinebar{
+    width: 100%;
+    min-height: 5vh;
+}
+
+.linebar{
+    margin-top: 0px;
+    border: none;
+    background-color: #333333;
+    width: 100%;
+    height: 1px;
+}
+
+/*CAPTION SECTION START*/
+.caption{
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("bg.svg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+
+.caption h1{
+    font-size: 6rem;
+    text-align: center;
+    color: #333333;
+    margin-top: 0px;
+    margin-bottom: 250px;
+}
+/*CAPTION SECTION END*/
+
+
+
+
+.scrolldown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 15vh;
+}
+.scrolldown h3{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+/*CONTENT SECTION START*/
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.content h1{
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.line{
+    width: 100%;
+    height: 3px;
+    border: none;
+    background-color: #B31942;
+}
+.content p{
+    margin-bottom: 25px;
+}
+
+.downlink{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.down-eng{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #333333;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    height: 40px;
+    border-radius: 3px;
+    margin-right: 20px;
+}
+
+.down-ml{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #333333;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.meet-students{
+    width: 100%;
+    background-color: #333333;
+    margin-top: 100px;
+    border-radius: 3px;
+}
+
+.meet-students-sub{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+.read-students{
+    display: flex;
+    flex-direction: row;
+ 
+}
+.scrollupbtn{
+    margin-right: 2.5%;
+}
+
+.scrollupimg{
+    width: 50px;
+    height: 50px;
+    z-index: 1000;
+}
+/*CONTENT SECTION END*/
+
+/*SECTION FOOTER START*/
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #333333;
+    align-items: center;
+}
+
+.footer p{
+    color: #ffffff;
+}
+
+.footer-sub{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: #333333;
+}
+
+/*SECTION FOOTER END*/
+
+/*MEDIA QUERY@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+@media only screen and (max-width: 1200px) {
+    .header-items{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .header-items P{
+        font-size: 1rem;
+    }
+
+    /*### header items sub start*/
+    .header-items-sub{
+        display: none;
+    }
+    /*### header items sub end*/
+
+
+    /*### dropdown menu start*/
+    .dropbtn {
+        display: block;
+    }
+      /*### dropdown menu end*/
+
+
+      /*CAPTION START*/
+
+
+      .caption h1{
+        font-size: 3rem;
+    }
+  
+    .scrolldown h3{
+        font-size: 1.5rem;
+    }
+      /*CAPTION END*/
+      /*CONTENT SECTION START*/
+      .content{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .scrollupimg{
+        width: 35px;
+        height: 35px;
+        z-index: 1000;
+    }
+      /*CONTENT SECTION END*/
+}
+
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
