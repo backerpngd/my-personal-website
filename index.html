@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <title>backer</title>
+
+    
+    <!--scroll button css code start-->
+    <style>
+        #myBtn {
+        width:30px;
+        height: 30px;
+        display: none;
+        position: fixed;
+        bottom: 40px;
+        right: 40px;
+        z-index: 99;
+        border: none;
+        outline: none;
+        background-color:transparent;
+        color: #f2f0ef;
+        cursor: pointer;
+        }
+    </style>
+    <!--scroll button css code end-->
+</head>
+<body>
+    <!--### section header start-->
+    <section id="header">
+        <div class="header">
+            <div class="logo">
+                <img src="logo.png" style="width: 130px;">
+            </div>
+            <div class="Contact">
+                <a href="#footer">Contact Me</a>
+            </div> 
+        </div>
+    </section>
+    <hr class="hearder-line">
+    <!--### section header end-->
+
+
+    <!--### section about start-->
+    <section id="about">
+        <div class="about">
+            <div class="photo">
+                <img src="me.jpg">
+            </div>
+            <div class="about-text">
+                <p> <span style="font-weight: 700; font-size: 30px;">I am Baker,</span> a postgraduate psychologist. I have a great interest in researching fundamental 
+                    questions, like where did we all come from? where are we going to? what is the real 
+                    purpose of our life and so on. Basically, there are answers from two perspectives to 
+                    these questions. One is science and the other is religion. science tells a spontaneous 
+                    origin story but religion has a different view of special creation. As far as a logical 
+                    person is concerned, which one should follow? I think i may guide you.</p>
+            </div>
+        </div>
+    </section>
+    <!--### section about end-->
+
+
+    <!--### section content start-->
+    <section id="content">
+        <div class="content">
+        </div>
+    </section>
+    <!--### section content end-->
+
+    <!--### section scroll up start-->
+    <div class="scrollup">
+                <button onclick="topFunction()" id="myBtn" title="Go to top" class="scrollupbtn"><div><img src="pageup.png" class="scrollupimg"></div></button>
+    </div>            
+    <!--### scroll up end end-->
+
+    <!--### section footer start-->
+    <section id="footer">
+        <div class="footer">
+            <img src="logo2.png" style="width: 130px;">
+            <p>CONTACT</p>
+            <p>7012889149</p>
+            <p>backerpngd@gmail.com</p>
+            <p style="font-size: 14px; margin-bottom: 50px; margin-top: 50px;">copyright@backerak.com</p>
+        </div>
+    </section>
+    <!--### section footer end-->
+
+    <!--### scroll up button js code start-->
+<script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+                        
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+                        
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+    } else {
+    mybutton.style.display = "none";
+    }
+    }
+                        
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    }
+    
+    
+    </script>
+    <!--scroll up button js code end-->
+
+</body>
+</html>
